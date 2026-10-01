@@ -1,0 +1,21 @@
+thE-noteTaker models
+
+The weights in this project's releases are converted copies of other people's models. They are format conversions only (NeMo or PyTorch checkpoint to safetensors, using parakeet.cpp's conversion scripts). No training or fine-tuning was done.
+
+parakeet-tdt-0.6b-v3 (tdt-600m.*)
+  Copyright NVIDIA Corporation. Licensed under CC-BY-4.0
+  (https://creativecommons.org/licenses/by/4.0/).
+  Source: https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3
+  Changes: converted to safetensors, tokenizer vocabulary published as a separate file, and the weights
+  split in two to fit GitHub's release asset size limit.
+
+diar_streaming_sortformer_4spk-v2.1 (sortformer.safetensors)
+  Licensed by NVIDIA Corporation under the NVIDIA Open Model License
+  (see LICENSES/NVIDIA-Open-Model-License.md).
+  Source: https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2.1
+  Changes: converted to safetensors.
+
+Silero VAD v5 (silero_vad_v5.safetensors)
+  Copyright (c) 2020-present Silero Team. MIT License.
+  Source: https://github.com/snakers4/silero-vad
+  Changes: key names remapped to the layout parakeet.cpp expects.
