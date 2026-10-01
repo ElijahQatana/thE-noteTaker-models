@@ -6,7 +6,7 @@ parakeet-tdt-0.6b-v3 (tdt-600m.*)
   Copyright NVIDIA Corporation. Licensed under CC-BY-4.0
   (https://creativecommons.org/licenses/by/4.0/).
   Source: https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3
-  Changes: converted to safetensors, tokenizer vocabulary extracted, and the weights
+  Changes: converted to safetensors, tokenizer vocabulary published as a separate file, and the weights
   split in two to fit GitHub's release asset size limit.
 
 diar_streaming_sortformer_4spk-v2.1 (sortformer.safetensors)
